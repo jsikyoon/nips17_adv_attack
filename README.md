@@ -8,7 +8,7 @@ https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack
 Baseline Algorithms
 ---------------
 
-###Fast Gradient Sign Method
+### Fast Gradient Sign Method
 
 Fast Gradient Sign Method is to generate adversarial images with gradient information of loss for the image.
 
@@ -22,7 +22,7 @@ Run script file in sample_attack folder as followed.
 
 This module is based on sample attack codes from Google Brain.
 
-###Iterative Least-likely Class Method
+### Iterative Least-likely Class Method
 
 Iterative Least-likely Class Method is to generate adversarial images by not using true label but "least-likely" label.
 
@@ -57,7 +57,7 @@ Reverse Cross-Entropy and training accuracy on learning of mark3
 Results
 --------
 
-###Comparison Result Summary ((!) means black-box validation, max_epsilon is fixed as 10)
+### Comparison Result Summary ((!) means black-box validation, max_epsilon is fixed as 10)
 
 |                                                   | inception v3 | resnet v2 50 | inception v4 | inception resnet v2 | resnet v2 101 | resnet v2 152 | inception v1 | inception v2 | vgg-16 | vgg-19 | resnet v1 50 | resnet v1 101 | resnet v1 152 |black-box vali. sum(incept. resnet v2, incept. v1/v2,vgg 16/19, resnet v1 50/101/152)|entire sum|
 |---------------------------------------------------|--------------|--------------|--------------|---------------------|---------------|---------------|--------------|--------------|--------|--------|--------------|---------------|---------------|-------------------------------------------------------------------------------------|----------|
@@ -74,7 +74,7 @@ Results
 |mark3 with incept.v3                               |           995|        (!)385|        (!)515|               (!)232|         (!)321|         (!)329|        (!)350|        (!)439|  (!)518|  (!)527|        (!)806|         (!)450|         (!)462|                                                                                3784|       6329| 
 |mark3 with incept.v3/4,res.v2 50/152/101 and avg2  |           886|           873|           877|               (!)379|            862|            845|        (!)648|        (!)720|  (!)723|  (!)719|        (!)854|         (!)670|         (!)664|                                                                                 5377|      9720|
 
-###Result Summary
+### Result Summary
 
 |                                                                           |  4  |  5  |  6  |  7  |  8  |  9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 |  sum|
 |---------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|----|----|----|----|----|----|----|-----|
