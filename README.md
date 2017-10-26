@@ -42,7 +42,20 @@ https://github.com/gongzhitaao/tensorflow-adversarial
 (Proposed) Adversarial Attack based on adversarial generative learning
 ----------------------------
 
-This module is to learn a functionality generating adversairal noise can make the model mis-predict data added with that. 
+This module is to learn a functionality generating adversairal noise can make the model mis-predict data added with that as followed.
+
+![Scheme](figures/adv_attack_des.PNG)
+
+We designed and validated lots of variations which are summarized bellowed table.
+
+The source code name is 
+
+`
+mark[1-3]_<target_model_num>_[notavg,avg,avg2].py.
+`
+
+In there files, avg and avg2 mean ensemble after and before softmax, because TF supports one API, which is for softmax and cross-entropy simultaneously and shows a great performance, thus, we tried both of using that and not using that. "notavg" means design of loss function with cross-entropy functions for each target model.
+ 
 
 |      |noise value range     |loss function                                              |batch_normalization|deconv model structure|
 |------|----------------------|-----------------------------------------------------------|-------------------|----------------------|

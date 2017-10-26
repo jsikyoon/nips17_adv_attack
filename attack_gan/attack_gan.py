@@ -140,33 +140,6 @@ def main(_):
     # Run computation
     saver=tf.train.Saver(g_params);
  
-    """ 
-    if(FLAGS.max_epsilon==6):
-      epsilon_value=6;  
-    elif(FLAGS.max_epsilon==10):
-      epsilon_value=10;  
-    epsilon_value=16;  
-    if(FLAGS.max_epsilon==4):
-      epsilon_value=6;  
-    elif(FLAGS.max_epsilon==5):
-      epsilon_value=7;  
-    elif(FLAGS.max_epsilon==6):
-      epsilon_value=8;  
-    elif(FLAGS.max_epsilon==7):
-      epsilon_value=8;  
-    elif(FLAGS.max_epsilon==8):
-      epsilon_value=10;  
-    elif(FLAGS.max_epsilon==9):
-      epsilon_value=10;  
-    elif(FLAGS.max_epsilon==10):
-      epsilon_value=12;  
-    elif(FLAGS.max_epsilon==11):
-      epsilon_value=14;  
-    elif(FLAGS.max_epsilon==12):
-      epsilon_value=14;  
-    elif(FLAGS.max_epsilon==13):
-      epsilon_value=14;  
-    """
     epsilon_value=int(FLAGS.max_epsilon);
     with tf.train.MonitoredSession() as sess:
       #saver.restore(sess,"my-models_iv3_rv250_rv2152_rv2101_iv4_avg2/my-model_"+str(epsilon_value)+".ckpt");
