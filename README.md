@@ -1,9 +1,11 @@
-NIPS 2017 Defense Against Adversarial Attack
+NIPS 2017 Defense Against Adversarial Attack (18th place)
 ===============
 
 https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack
 
 ![Scheme](figures/nips2017_adver.PNG)
+
+![Scheme](figures/nips_17_adv_ranking.PNG)
 
 Baseline Algorithms
 ---------------
