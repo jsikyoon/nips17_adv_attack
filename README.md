@@ -112,5 +112,10 @@ Jaesik Yoon (jaesik817@gmail.com)
 
 Hoyong Jang (hoyong.jang@kaist.ac.kr)
 
+Talk Materials and Video (In Korea)
+------------
 
+https://www.slideshare.net/NaverEngineering/ss-86897066
+
+https://youtu.be/76-Zuskj03c
 
